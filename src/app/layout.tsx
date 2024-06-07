@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} text-sm text-gray-900 bg-[#E5E8EC] flex flex-col mx-auto min-h-screen`}>
+      <body className={`${inter.className} text-sm text-zinc-900 bg-[#E5E8EC] flex flex-col mx-auto min-h-screen`}>
         <AppHeader />
         {children}
         <AppFooter />

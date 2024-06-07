@@ -20,7 +20,7 @@ export default function CollectionCard({ route, image, title }: CollectionCardPr
         <div>
           <Image src={image} alt={title} layout="fill" objectFit="cover" className={`transition-transform duration-300 transform-gpu ${isHovered ? "scale-110" : "scale-100"}`} />
         </div>
-        <Button className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-black bg-white text-lg font-bold hover:bg-white">{title}</Button>
+        <Button className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-zinc-900 bg-white text-lg font-bold hover:bg-white">{title}</Button>
       </div>
     </Link>
   )

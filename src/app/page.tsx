@@ -7,6 +7,7 @@ import socksImage from "../../public/mensDressSocks.jpg"
 import allClothesImage from "../../public/mensDressClothes.jpg"
 
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
+import BestSellingItemCard from "@/components/BestSellingItemCard";
 
 const collectionCardProps = [
   {
@@ -44,6 +45,7 @@ const collectionCardProps = [
 export default function Home() {
   return (
     <main className="mx-auto w-4/5 py-14">
+      <div className="pb-32 border-b border-black/30">
       <Carousel>
         <CarouselContent >
 
@@ -58,6 +60,9 @@ export default function Home() {
         <CarouselPrevious />
         <CarouselNext />
     </Carousel>
+      </div>
+      
+    <BestSellingItemCard />
     </main>
   );
 }
